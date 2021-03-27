@@ -16,3 +16,4 @@ contract ExchangeTradedToken is ERC20{
 
 
 //Kovan contract address: 0xdfa13fb46c44148211d9a9bbb36919d5093d90a0
+//deployed 3-27-21 11:11 AM
