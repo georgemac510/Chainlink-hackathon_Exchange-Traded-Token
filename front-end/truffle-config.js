@@ -15,8 +15,9 @@ module.exports = {
       host: '127.0.0.1',
       port: 7545,
       network_id: '*',
-    },  
+    },
     kovan: {
+      networkCheckTimeout: 100000,
       provider: () => {
         return new HDWalletProvider(mnemonic, url)
       },
@@ -24,6 +25,7 @@ module.exports = {
       skipDryRun: true
     },
   },
+  contracts_build_directory: './src/abis/',
   compilers: {
     solc: {
       version: '0.6.6',
